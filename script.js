@@ -3,5 +3,5 @@ let gravar = document.getElementById('gravar')
 
 gravar.addEventListener('click', ()=>{
     let nome= document.getElementById('nome').value
-    res_nome.innerHTML = 'O nome o cliente é' + nome
+    res_nome.innerHTML = 'O nome o cliente é' +  nome
 })
